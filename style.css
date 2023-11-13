@@ -1,0 +1,73 @@
+body {
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;
+   color: #594a4e;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1606259457945-67dc66271ee6?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  padding: 120px 0;
+  font-size: 26px;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 26px;
+  opacity: 0.8;
+}
+
+.police-white {
+  color: #fffffe;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner-hover {
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  color: #594a4e;
+  background-image: linear-gradient(100deg, rgb(180, 156, 166) 12%, rgb(237, 232, 236) 94%);
+  padding-right: 0;
+  opacity: 0.6;
+}
+
+.banner-hover:hover {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
